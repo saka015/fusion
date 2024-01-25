@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:active,
+input:focus,select:focus,option:focus {
+  outline: 1px lightgreen solid;
+  cursor: pointer;
+}
+
+.nav-anim:hover
+{
+  text-decoration: underline;
+  color: red;
+  text-underline-offset: 10px;
+}
