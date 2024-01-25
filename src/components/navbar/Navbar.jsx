@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { Dialog, Transition } from "@headlessui/react";
 import { RxCross2 } from "react-icons/rx";
 import { useSelector } from "react-redux";
+import logo from './logo.png'
 
 function Navbar() {
   const context = useContext(myContext);
@@ -71,7 +72,7 @@ function Navbar() {
                 <div className="space-y-6 border-t border-gray-200 px-4 py-6">
                   <Link
                     to={"/allproducts"}
-                    className=" text-sm font-medium text-gray-900 hover:text-green-400"
+                    className=" text-sm font-medium text-gray-900 hover:text-red-400"
                     style={{ color: mode === "dark" ? "white" : "" }}
                   >
                     All Products
@@ -199,12 +200,13 @@ function Navbar() {
               <div className="ml-4 flex lg:ml-0">
                 <Link to={"/"} className="flex">
                   <div className="flex ">
-                    <h1
+                    {/* <h1
                       className=" text-2xl font-bold text-black  px-2 py-1 rounded"
                       style={{ color: mode === "dark" ? "white" : "" }}
                     >
                       Fusion
-                    </h1>
+                    </h1> */}
+                    <img src={logo} width='100' alt="fusion_logo" />
                   </div>
                 </Link>
               </div>
@@ -270,11 +272,12 @@ function Navbar() {
                 </div>
                 <div className="hidden lg:ml-8 lg:flex">
                   <a href="#" className="flex items-center text-gray-700 ">
-                    <img
+                    {/* <img
                       className="inline-block w-10 h-10 rounded-full"
                       src="https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg"
                       alt="Dan_Abromov"
-                    />
+                    /> */}
+                    <FaUserCircle className="text-2xl " />
                   </a>
                 </div>
 
@@ -309,7 +312,7 @@ function Navbar() {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="w-6 h-6 active:scale-90 hover:text-green-500"
+                      className="w-6 h-6 active:scale-90 hover:text-red-500"
                     >
                       <path
                         strokeLinecap="round"

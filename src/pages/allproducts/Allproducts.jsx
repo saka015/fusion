@@ -47,7 +47,7 @@ function Allproducts() {
             >
               Our Latest Collection
             </h1>
-            <div className="h-1 w-20 bg-green-600 rounded"></div>
+            <div className="h-1 w-20 bg-red-400 rounded"></div>
           </div>
 
           <div className="flex flex-wrap -m-4">
@@ -103,7 +103,7 @@ function Allproducts() {
                           <button
                             type="button"
                             onClick={() => addCart(item)}
-                            className="focus:outline-none text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
+                            className="focus:outline-none text-white bg-red-400 hover:bg-red-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full  py-2"
                           >
                             Add To Cart
                           </button>

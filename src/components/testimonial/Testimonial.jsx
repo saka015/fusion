@@ -20,8 +20,7 @@ function Testimonial() {
             className=" text-center text-2xl font-semibold mb-10"
             style={{ color: mode === "dark" ? "white" : "" }}
           >
-            What our <span className=" text-green-500">customers</span> are
-            saying
+            What our <span className=" text-red-500">customers</span> are saying
           </h2>
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -40,7 +39,7 @@ function Testimonial() {
                   ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
                   adaptogen squid fanny pack vaporware.
                 </p>
-                <span className="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4" />
+                <span className="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4" />
                 <h2
                   style={{ color: mode === "dark" ? "#ff4162" : "" }}
                   className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase"
@@ -72,7 +71,7 @@ function Testimonial() {
                   ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
                   adaptogen squid fanny pack vaporware.
                 </p>
-                <span className="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4" />
+                <span className="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4" />
                 <h2
                   style={{ color: mode === "dark" ? "#ff4162" : "" }}
                   className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase"
@@ -103,7 +102,7 @@ function Testimonial() {
                   ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
                   adaptogen squid fanny pack vaporware.
                 </p>
-                <span className="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4" />
+                <span className="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4" />
                 <h2
                   style={{ color: mode === "dark" ? "#ff4162" : "" }}
                   className="text-gray-900 font-medium title-font tracking-wider text-sm uppercase"

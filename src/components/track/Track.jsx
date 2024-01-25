@@ -18,7 +18,7 @@ function Track() {
                 }}
               >
                 <svg
-                  className="text-green-600 w-12 h-12 mb-3 inline-block"
+                  className="text-red-600 w-12 h-12 mb-3 inline-block"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -52,7 +52,7 @@ function Track() {
                 }}
               >
                 <svg
-                  className="text-green-600 w-12 h-12 mb-3 inline-block"
+                  className="text-red-600 w-12 h-12 mb-3 inline-block"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -87,7 +87,7 @@ function Track() {
                 }}
               >
                 <svg
-                  className="text-green-600 w-12 h-12 mb-3 inline-block"
+                  className="text-red-600 w-12 h-12 mb-3 inline-block"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -105,7 +105,7 @@ function Track() {
                   className="title-font font-medium text-lg text-gray-900"
                   style={{ color: mode === "dark" ? "white" : "" }}
                 >
-                Best Discount
+                  Best Discount
                 </h2>
                 <p className="leading-relaxed">
                   We provide best discount offers

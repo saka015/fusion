@@ -1,4 +1,10 @@
 import React, { useContext } from "react";
+
+import { CiDeliveryTruck } from "react-icons/ci";
+
+import { MdOutlineProductionQuantityLimits } from "react-icons/md";
+import { FaUser, FaCartPlus } from "react-icons/fa";
+import { AiFillShopping, AiFillPlusCircle, AiFillDelete } from "react-icons/ai";
 import { FaUserTie } from "react-icons/fa";
 import myContext from "../../../context/data/myContext";
 import Layout from "../../../components/layout/Layout";
@@ -14,17 +20,17 @@ function Dashboard() {
           <div className="flex flex-wrap -m-4 text-center">
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div
-                className=" border-2 hover:shadow-green-600 shadow-[inset_0_0_10px_rgba(0,0,0,0.6)] bg-gray-100 border-gray-300    px-4 py-3 rounded-xl"
+                className=" border-2 hover:shadow-red-600   border-gray-100    px-4 py-3 rounded-xl"
                 style={{
                   backgroundColor: mode === "dark" ? "rgb(46 49 55)" : "",
                   color: mode === "dark" ? "white" : "",
                 }}
               >
                 <div
-                  className="text-green-500 w-12 h-12 mb-3 inline-block"
+                  className="text-gray-300 w-12 h-12 mb-3 inline-block"
                   viewBox="0 0 24 24"
                 >
-                  <FaUserTie size={50} />
+                  <AiFillShopping size={50} />
                 </div>
                 <h2
                   className="title-font font-medium text-3xl text-black fonts1"
@@ -33,7 +39,7 @@ function Dashboard() {
                   10
                 </h2>
                 <p
-                  className=" text-green-500  font-bold"
+                  className=" text-red-500  font-bold"
                   style={{ color: mode === "dark" ? "white" : "" }}
                 >
                   Total Products
@@ -42,17 +48,17 @@ function Dashboard() {
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div
-                className=" border-2 hover:shadow-green-600 shadow-[inset_0_0_10px_rgba(0,0,0,0.6)] bg-gray-100 border-gray-300    px-4 py-3 rounded-xl"
+                className=" border-2 hover:shadow-red-600   border-gray-100    px-4 py-3 rounded-xl"
                 style={{
                   backgroundColor: mode === "dark" ? "rgb(46 49 55)" : "",
                   color: mode === "dark" ? "white" : "",
                 }}
               >
                 <div
-                  className="text-green-500 w-12 h-12 mb-3 inline-block"
+                  className="text-gray-300 w-12 h-12 mb-3 inline-block"
                   viewBox="0 0 24 24"
                 >
-                  <FaUserTie size={50} />
+                  <MdOutlineProductionQuantityLimits size={50} />
                 </div>
                 <h2
                   className="title-font font-medium text-3xl text-black fonts1"
@@ -61,7 +67,7 @@ function Dashboard() {
                   10
                 </h2>
                 <p
-                  className=" text-green-500  font-bold"
+                  className=" text-red-500  font-bold"
                   style={{ color: mode === "dark" ? "white" : "" }}
                 >
                   Total Orders
@@ -70,14 +76,14 @@ function Dashboard() {
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div
-                className=" border-1 hover:shadow-green-600 shadow-[inset_0_0_10px_rgba(0,0,0,0.6)] bg-gray-100 border-gray-300    px-4 py-3 rounded-xl"
+                className=" border-2    border-gray-100    px-4 py-3 rounded-xl"
                 style={{
                   backgroundColor: mode === "dark" ? "rgb(46 49 55)" : "",
                   color: mode === "dark" ? "white" : "",
                 }}
               >
                 <div
-                  className="text-green-500 w-12 h-12 mb-3 inline-block"
+                  className="text-gray-300 w-12 h-12 mb-3 inline-block"
                   viewBox="0 0 24 24"
                 >
                   <FaUserTie size={50} />
@@ -89,7 +95,7 @@ function Dashboard() {
                   20
                 </h2>
                 <p
-                  className=" text-green-500  font-bold"
+                  className=" text-red-500  font-bold"
                   style={{ color: mode === "dark" ? "white" : "" }}
                 >
                   Total Users
@@ -98,17 +104,17 @@ function Dashboard() {
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div
-                className=" border-2 hover:shadow-green-600 shadow-[inset_0_0_10px_rgba(0,0,0,0.6)] bg-gray-100 border-gray-300    px-4 py-3 rounded-xl"
+                className=" border-2    border-gray-100    px-4 py-3 rounded-xl"
                 style={{
                   backgroundColor: mode === "dark" ? "rgb(46 49 55)" : "",
                   color: mode === "dark" ? "white" : "",
                 }}
               >
                 <div
-                  className="text-green-500 w-12 h-12 mb-3 inline-block"
+                  className="text-gray-300 w-12 h-12 mb-3 inline-block"
                   viewBox="0 0 24 24"
                 >
-                  <FaUserTie size={50} />
+                  <CiDeliveryTruck size={50} />
                 </div>
                 <h2
                   className="title-font font-medium text-3xl text-black fonts1"
@@ -117,10 +123,10 @@ function Dashboard() {
                   20
                 </h2>
                 <p
-                  className=" text-green-500  font-bold"
+                  className=" text-red-500  font-bold"
                   style={{ color: mode === "dark" ? "white" : "" }}
                 >
-                  Total Products
+                  Total Delivery Partners
                 </p>
               </div>
             </div>

@@ -34,7 +34,7 @@ function DashboardTab() {
               <Tab>
                 <button
                   type="button"
-                  className="font-medium border-b-2 hover:shadow-green-700 border-green-500 text-green-500 rounded-lg text-xl shadow-[inset_0_0_8px_rgba(0,0,0,0.6)]  px-5 py-1.5 text-center bg-[#605d5d12] "
+                  className="font-medium border-b-2   text-red-500 rounded-lg text-xl   px-5 py-1.5 text-center bg-[#605d5d12] border-1 border-red-200 go-up"
                 >
                   <div className="flex gap-2 items-center">
                     <MdOutlineProductionQuantityLimits />
@@ -45,17 +45,17 @@ function DashboardTab() {
               <Tab>
                 <button
                   type="button"
-                  className="font-medium border-b-2 border-green-500 bg-[#605d5d12] text-green-500  hover:shadow-green-700  rounded-lg text-xl shadow-[inset_0_0_8px_rgba(0,0,0,0.6)]    px-5 py-1.5 text-center "
+                  className="font-medium border-b-2   text-red-500 rounded-lg text-xl   px-5 py-1.5 text-center bg-[#605d5d12] border-1 border-red-200 go-up"
                 >
                   <div className="flex gap-2 items-center">
-                    <AiFillShopping /> Order
+                    <AiFillShopping /> Orders
                   </div>
                 </button>
               </Tab>
               <Tab>
                 <button
                   type="button"
-                  className="font-medium border-b-2 border-green-500 bg-[#605d5d12] text-green-500 rounded-lg text-xl  hover:shadow-green-700 shadow-[inset_0_0_8px_rgba(0,0,0,0.6)]   px-5 py-1.5 text-center "
+                  className="font-medium border-b-2   text-red-500 rounded-lg text-xl   px-5 py-1.5 text-center bg-[#605d5d12] border-1 border-red-200 go-up "
                 >
                   <div className="flex gap-2 items-center">
                     <FaUser /> Users
@@ -76,7 +76,7 @@ function DashboardTab() {
                   <button
                     onClick={add}
                     type="button"
-                    className="focus:outline-none text-white bg-green-600 shadow-[inset_0_0_10px_rgba(0,0,0,0.6)] border hover:bg-green-700 outline-0 font-medium rounded-lg text-sm px-5 py-2.5 mb-2"
+                    className="font-medium   text-white bg-red-400 rounded-lg text-xl   px-5 py-1.5 text-center hover:border  hover:border-red-400 hover:text-red-400 hover:bg-transparent  mb-2"
                     style={{
                       backgroundColor: mode === "dark" ? "rgb(46 49 55)" : "",
                       color: mode === "dark" ? "white" : "",
@@ -89,9 +89,9 @@ function DashboardTab() {
                   </button>
                 </div>
                 <div className="relative overflow-x-auto ">
-                  <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400  ">
+                  <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400 border border-red-100 py-1 ">
                     <thead
-                      className="text-xs border border-gray-600 text-black uppercase bg-gray-200 shadow-[inset_0_0_8px_rgba(0,0,0,0.6)]"
+                      className="text-xs   text-black uppercase  my-2 "
                       style={{
                         backgroundColor: mode === "dark" ? "rgb(46 49 55)" : "",
                         color: mode === "dark" ? "white" : "",
