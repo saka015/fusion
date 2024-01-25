@@ -101,8 +101,8 @@ function Cart() {
       // Clear the cart in your local storage or wherever it's stored
       localStorage.setItem("cart", JSON.stringify([]));
 
+      // cartItems=[]
       toast.success("Order placed successfully");
-      cartItems=[]
 
       // Redirect to the home page (change the routing logic based on your setup)
       // Example: window.location.href = "/";
@@ -111,7 +111,6 @@ function Cart() {
       toast.error("Failed to place the order");
     }
   };
-
 
   // const buyNow = async () => {
   //   if (name === "" || address == "" || pincode == "" || phoneNumber == "") {
